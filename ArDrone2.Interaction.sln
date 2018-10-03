@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ArDrone2.Interaction.Shared", "ArDrone2.Interaction.Shared\ArDrone2.Interaction.Shared.shproj", "{64199A03-EC0B-4359-A063-90E89CF7C9C9}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ArDrone2.Interaction.Shared\ArDrone2.Interaction.Shared.projitems*{64199a03-ec0b-4359-a063-90e89cf7c9c9}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEBDE311-FB76-40A8-872F-4C0BD2F6E01C}
+	EndGlobalSection
+EndGlobal

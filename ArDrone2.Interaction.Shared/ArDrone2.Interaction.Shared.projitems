@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>64199a03-ec0b-4359-a063-90e89cf7c9c9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ArDrone2.Interaction.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DroneControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DroneMovement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DroneState.cs" />
+  </ItemGroup>
+</Project>
